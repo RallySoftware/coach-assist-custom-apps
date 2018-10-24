@@ -1,0 +1,168 @@
+/* Master file for the app */
+
+.releaseheaders
+{
+   line-height: 150%;
+   font-size: 15px;
+}
+
+.mainHeader
+{
+   font-size: 15px;
+   margin-left:15px;
+}
+
+
+.customGridHeader .x-column-header-inner .x-column-header-text {
+   white-space: normal;
+   color: #6d6d6d;
+   font-family: "Segoe UI",Arial,sans-serif;
+   font-weight: 800;
+   font-size: 13px;
+   border:none;
+}
+
+.summarystatus2 {
+   font-weight: bold;
+   color: #6d6d6d;
+   padding-top: 10px;
+}
+
+.status2 li {
+   list-style: none;
+   color: #6d6d6d;
+   line-height: 150%;
+   padding-left: 34px;
+
+}
+
+
+.summarystatus2 li {
+   font-size: 20px;
+}
+
+.status .subtext
+{
+   list-style: none;font-size:11px;
+}
+
+.divhealthvalue
+{
+   display: inline-flex;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   cursor: pointer;
+}
+
+.divhealthvalue:hover 
+{
+   font-weight: bold;
+}
+.status:hover 
+{
+   font-weight: bold;
+}
+.status2:hover 
+{
+   font-weight: bold;
+}
+
+.divvalflex
+{
+   display: inline-flex;
+   cursor: pointer;
+}
+.spnnodata
+{
+   margin-left: 15px;
+   font-weight: bold;
+   font-size: 12px;
+}
+.overviewGridHeader .x-column-header-inner .x-column-header-text {
+  white-space: normal;
+  color: #6d6d6d;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  border:none;
+  margin-top:10px;
+}
+.overviewGridHeader .x-grid-cell-inner {
+  overflow: hidden;
+  padding: 5px 5px;
+  white-space: nowrap;
+  height:37px;
+}
+.first-row  .serial-column{
+  font-weight: bold;
+}
+.rectangle {
+  height: 15px;
+  width: 8px;
+  margin-left:6px;
+}
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid green;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid red;
+}
+.opener
+{
+   cursor: pointer;
+}
+.slidecontainer {
+  width: 100%;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 45px;
+  height: 20px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 15px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.releaseGridHeader .x-column-header-inner .x-column-header-text {
+  font-weight: bold;
+  white-space: normal;
+  font-size: 10px;
+}

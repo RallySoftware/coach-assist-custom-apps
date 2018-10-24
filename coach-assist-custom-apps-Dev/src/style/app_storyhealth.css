@@ -1,0 +1,117 @@
+
+     /* Add app styles here */
+     .status li {
+       /* list-style: none;*/
+        padding-left:5px;
+        padding-top:5px;
+        color: #6d6d6d;
+        line-height: 150%;
+        font-size: 16px;
+     }
+     .status
+     {
+        margin-left: 30px;
+     }
+      
+     .status_value {
+        font-weight: bold;
+        color: #418fe4;
+     }
+
+     .summarystatus li {
+         list-style: none;
+         padding-left:5px;
+         color: black;
+         line-height: 150%;
+         font-size: 20px;
+      }
+
+    
+      .summarystatus {
+         font-weight: bold;
+         color: #418fe4;
+      }
+
+      .summarystatus_val {
+        font-weight: bold;
+        color: #418fe4;
+     }
+
+     .storydata
+     {
+        line-height: 150%;
+        font-size: 20px;
+     }
+
+     .mainHeader
+     {
+        font-size: 15px;
+        margin-left:15px;
+     }
+
+     
+     .customGridHeader .x-column-header-inner .x-column-header-text {
+        white-space: normal;
+        color: #6d6d6d;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 800;
+        font-size: 13px;
+        border:none;
+    }
+
+    .summarystatus2 {
+        font-weight: bold;
+        color: #6d6d6d;
+        padding-top: 10px;
+     }
+
+     .status2 li {
+        list-style: none;
+        color: #6d6d6d;
+        line-height: 150%;
+        padding-left: 34px;
+
+     }
+
+
+     .summarystatus2 li {
+        font-size: 20px;
+     }
+
+     .status .subtext
+     {
+        list-style: none;font-size:11px;
+     }
+
+     .divhealthvalue
+     {
+        display: inline-flex;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        cursor: pointer;
+     }
+
+     .divhealthvalue:hover 
+     {
+        font-weight: bold;
+     }
+     .status:hover 
+     {
+        font-weight: bold;
+     }
+     .status2:hover 
+     {
+        font-weight: bold;
+     }
+
+     .divvalflex
+     {
+        display: inline-flex;
+        cursor: pointer;
+     }
+     .spnnodata
+     {
+        margin-left: 15px;
+        font-weight: bold;
+        font-size: 12px;
+     }
